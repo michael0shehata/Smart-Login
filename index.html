@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/all.min.css">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body> 
+<div class="home_login">
+    <nav class="navbar navbar-expand-lg position-fixed top-0 w-100 ">
+        <div class="container-fluid ">          
+          <a class="navbar-brand text-light fs-4" > <i class="fa-brands fa-wolf-pack-battalion text-light fa-xl"></i>DressUp</a>
+          <button class="navbar-toggler bg-white " type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon text-light"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 px-2 ">
+            
+              <li class="nav-item px-2">
+                <a class="nav-link text-light" id="LOGIN" >LOGIN </a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link text-light" id="REGISTER" >REGISTER </a>
+              </li>
+             
+            </ul>
+    
+          </div>
+        </div>
+      </nav>      
+<header class="start vh-100">
+    <div class="startimg">
+        <div class="container  d-flex align-items-center h-100">
+            <div class="row  w-100">
+                <div class="col-lg-6 offset-lg-3 ">
+                  <div class="mb-4 position-relative d-none" id="User">
+                    <input type="text" class="form-control rounded-5 py-4 ps-5 " id="UserNameInput" aria-describedby="emailHelp" placeholder="User Name" >
+                    <i class="fa-solid fa-user text-light position-absolute top-50 ps-3 translate-middle-y fa-xl"></i>
+                    <div id="validationServerUsernameFeedback" class="invalid-feedback d-none">
+                      Please enter a UserName.
+                    </div> 
+                  </div>
+                    <div class="mb-4 position-relative">
+                      <input type="email" class="form-control rounded-5 py-4 ps-5 " id="UserEmailUp" aria-describedby="emailHelp" placeholder="User Email" >
+                        <input type="email" class="form-control rounded-5 py-4 ps-5 d-none" id="UserEmailInput" aria-describedby="emailHelp" placeholder="User Email" >
+                        <i class="fa-solid fa-user text-light position-absolute top-50 ps-3 translate-middle-y fa-xl "></i>
+                        <div id="validationServerUsernameFeedback" class="invalid-feedback d-none">
+                          Please enter a UserEmail.
+                        </div>
+                      </div>
+                      <div class="mb-4 position-relative">
+                        <input type="password" class="form-control  rounded-5 py-4 ps-5 " id="Passwordup" placeholder="Password">
+                        <input type="password" class="form-control  rounded-5 py-4 ps-5 d-none" id="PasswordInput" placeholder="Password">
+                        <i class="fa-solid fa-unlock text-light position-absolute top-50 ps-3 translate-middle-y fa-xl"></i>
+                        <div id="validationServerUsernameFeedback" class="invalid-feedback d-none">
+                          Please enter a Password.
+                        </div>
+                      </div>
+                      <div class="d-grid gap-2 pt-1">
+                        <span class="text-center fs-4 text-danger bg-light w-50 mx-auto d-none" id="faled">This person does not exist</span>
+                      <a  class="btn  rounded-5 py-4 " id="GETSTARTED">LOGIN</a>
+                      <button  class="btn  rounded-5 py-4 d-none" id="GETSTARTEDlist">Sign Up</button>
+                    </div>
+                </div>
+      
+            </div>
+        </div>    
+          
+    </div>
+</header>
+<footer class="position-fixed bottom-0 start-50 translate-middle-x text-light py-5 ">
+    <i class="fa-regular fa-copyright"></i>
+    <span>2021 Key. All Rights Reserved | Design By Rabia Israr</span>
+
+</footer>
+</div>
+
+
+
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="js/main.js"></script>
+</body>
+
+</html>
+
